@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('wrapper')
-    <a href="#">Todos</a>
+    <a href="{{ route('todos') }}">Todos</a>
 @endsection
